@@ -151,7 +151,7 @@ async function start() {
     const address = "0x074246e2efcc57f086a9e8e7169f93538db425c3";
     console.log(address);
     await subscribe(address);
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 100; i++) {
         const defiHash = await getHashDefi(address);
         if (defiHash) {
             const solutionHash:ISolutionHash = {
