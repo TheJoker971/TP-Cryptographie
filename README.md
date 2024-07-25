@@ -27,7 +27,7 @@ Ce projet est une application TypeScript qui interagit avec une API pour résoud
 2. Accédez au répertoire du projet :
 
     ```bash
-    cd ethereum-challenge-solver
+    cd TP-Cryptographie
     ```
 
 3. Installez les dépendances :
